@@ -142,7 +142,7 @@ def predict(model, src_image):
 
 
 def test_one_image():
-    image_path = "error/9790140683116556062.png"
+    image_path = "1.png"
 
     model_path = "models/word-39-0.9962.h5"
     model = create_squeezenet(2, train=False)
@@ -199,5 +199,5 @@ def test():
 
 if __name__ == "__main__":
     # train()
-    test()
-    #test_one_image()
+    # test()
+    test_one_image()
